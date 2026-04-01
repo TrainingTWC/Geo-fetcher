@@ -1,0 +1,5 @@
+{
+  "name": "Precision Geotagger",
+  "description": "A high-accuracy location logging tool for store geotagging.",
+  "requestFramePermissions": ["geolocation"]
+}
