@@ -6,7 +6,7 @@ export interface Store {
   hasGeotag: boolean;
 }
 
-const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SHEET_URL as string;
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzjypih9DyDwYfdmT60SlMTV4d9DZ5KXp6bU-s67SxGg42_XzJQBazhX0E_mR9Q_XAV/exec';
 
 /**
  * Fetch all stores from the Google Sheet via Apps Script Web App.
